@@ -1,0 +1,18 @@
+[project]
+name = "simfileimp"
+version = "0.0.1"
+authors = [
+  { name="Alexander Teplenin", email="alexteplenin@gmail.com" },
+]
+description = "A tiny package to import cardiac simulation data to numpy"
+readme = "README.md"
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=50.0"]
+build-backend = "setuptools.build_meta"
